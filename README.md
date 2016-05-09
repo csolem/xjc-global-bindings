@@ -28,7 +28,7 @@ Failed to produce code.
 
 # Working example with no annotation in main.xsd
 
-```xjc -b bindings.xjb no-include-works-example/main.xsd```
+```xjc -b bindings.xjb no-annotation-works-example/main.xsd```
 
 
 Output:
