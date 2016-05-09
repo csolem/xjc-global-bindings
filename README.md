@@ -1,5 +1,5 @@
 # xjc-global-bindings
-Reproduce issues with globalBindings and xjc.
+Reproduce issues with globalBindings and xjc. Global bindings are not applied when there is a schema include, and an annotation.
 
 # Example with naming collision
 Two elements with the same name, except a trailing underscore, which should be handled by `<jxb:globalBindings underscoreBinding="asCharInWord" />`.
