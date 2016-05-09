@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:include schemaLocation="included.xsd"/>
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+          This annotation entry causes JAXB to ignore the global bindings in bindings.xjb.
+        </xsd:documentation>
+    </xsd:annotation>
+</xsd:schema>
